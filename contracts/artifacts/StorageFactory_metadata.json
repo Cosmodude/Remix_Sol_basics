@@ -6,6 +6,13 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "CreateSC",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -82,6 +89,62 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "sfget",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "int256",
+						"name": "num",
+						"type": "int256"
+					}
+				],
+				"name": "sfstr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "sta",
+				"outputs": [
+					{
+						"internalType": "contract Storage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "int256",
 						"name": "num",
 						"type": "int256"
@@ -106,7 +169,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Lesson1_Storage.sol": "Storage"
+			"contracts/Lesson3_Storage_Factory.sol": "StorageFactory"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -125,6 +188,13 @@
 			"urls": [
 				"bzz-raw://b98eafa74c2676c2afbb74c2da1e8f0467a46d8532487978e9c2c3fa010305cc",
 				"dweb:/ipfs/QmShyGTmxiX5o3XBRmcu6eWZBTLFeHAT5fDbQ4zZcrJEFk"
+			]
+		},
+		"contracts/Lesson3_Storage_Factory.sol": {
+			"keccak256": "0xeaacce13ed15e9e33644505825f4a31347ee9d1077fa7408d2a3334a585e01fc",
+			"urls": [
+				"bzz-raw://946a225e8f0e37920dbf7ab7fbb1ddc60de059b09eaf69a0ef11bb4d0b0abfd9",
+				"dweb:/ipfs/QmbouQGJ513sGjhkXXwED4wKucUve8vHEwKagREedw9mWT"
 			]
 		}
 	},

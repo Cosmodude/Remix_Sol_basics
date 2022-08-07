@@ -18,7 +18,7 @@ contract Storage {
     function store(uint256 num) public {
         number = num;
     }
-
+     
     /**
      * @dev Return value 
      * @return value of 'number'
