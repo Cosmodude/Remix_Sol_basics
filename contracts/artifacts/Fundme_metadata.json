@@ -13,6 +13,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ETH",
+						"type": "uint256"
+					}
+				],
+				"name": "GetConversionRate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "GetPrice",
 				"outputs": [
@@ -89,10 +108,10 @@
 			]
 		},
 		"contracts/Lesson3_Fund.sol": {
-			"keccak256": "0x055f8a43bb807ea845a83ef6071c77409ec183784d8d74326b1e423dfb525d2f",
+			"keccak256": "0x9ff2fc7b3a21389c8cab3e85ea3a2b25f74d42330ddfb5eccc89de9c33451d54",
 			"urls": [
-				"bzz-raw://5071a27bacb8d1a8e43b9e45baf85fe276e3a7088e7cd20d43048237947d502c",
-				"dweb:/ipfs/Qmf8EfEdUGubPfKmufMDKBSwwDu56MmXLL5wjPiZD5gjMu"
+				"bzz-raw://df9f2d6b2f413df147acce0d88b9c17aaa7f065ca30dece12eb2385627fe7a56",
+				"dweb:/ipfs/QmShgZxVxrNzGxv7n3qmhanBLXYZ7rqpHJxaN4vUoKgpXG"
 			]
 		}
 	},

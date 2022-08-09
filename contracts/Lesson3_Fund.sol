@@ -23,4 +23,10 @@ contract Fundme{
             int price,,,) =PriceFeed.latestRoundData();
         return uint256(price*10**10);
     }
+
+    function GetConversionRate(uint256 ETH) public view returns(uint256) {
+        uint256 ETHPrice = GetPrice();
+        uint256 USD=(ETHPrice* ETH)/(10**18);
+        return USD;
+    }
 }
