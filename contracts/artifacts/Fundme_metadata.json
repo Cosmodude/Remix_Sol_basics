@@ -7,9 +7,33 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
 				"name": "Fund",
 				"outputs": [],
 				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Funders",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -58,6 +82,13 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "Withdraw",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -71,6 +102,19 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -107,11 +151,18 @@
 				"dweb:/ipfs/QmdqjNoPJsdgH7CN1x2yoroFQsdNNg16woFasSQXR83sWU"
 			]
 		},
-		"contracts/Lesson3_Fund.sol": {
-			"keccak256": "0x9ff2fc7b3a21389c8cab3e85ea3a2b25f74d42330ddfb5eccc89de9c33451d54",
+		"@chainlink/contracts/src/v0.6/vendor/SafeMathChainlink.sol": {
+			"keccak256": "0x105f5e9491f3d0bbdd4f1c7627eb839d69b944bfd803028a01cc083597692c1f",
 			"urls": [
-				"bzz-raw://df9f2d6b2f413df147acce0d88b9c17aaa7f065ca30dece12eb2385627fe7a56",
-				"dweb:/ipfs/QmShgZxVxrNzGxv7n3qmhanBLXYZ7rqpHJxaN4vUoKgpXG"
+				"bzz-raw://ec45a2748a024a947a921183d4102d5e206808588501d85ddc4f5668a009bc73",
+				"dweb:/ipfs/QmRNAMpq7LdWFnJ7wWKGbUuAcURaGSS42PMxtQ4vjrHmp9"
+			]
+		},
+		"contracts/Lesson3_Fund.sol": {
+			"keccak256": "0x2cb87c77e7893265190e8e76cc1e8427b38bbb2093fe1947731ff9c909c78398",
+			"urls": [
+				"bzz-raw://b5d4eb8d4dd007017d61c4d219463e68358076ccf456425753c580936150fceb",
+				"dweb:/ipfs/QmaawJ4rhTUmPbp1CkojUgXxNiXsVQFmd5Y6hkufMKt9Rm"
 			]
 		}
 	},
